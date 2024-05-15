@@ -1,4 +1,27 @@
 <view class="container">
+   <view class="head_box">
+      <image src="/image/head.png" mode=""></image>
+      <view>{{title}}</view>
+   </view>
+   <view class="weather_box">
+     <view class="welcome_text">
+     {{welcome}}
+     </view>
+     <view class="flex">
+       <view class="w50">
+       <image src="/image/little_rain.png" class="weather_image" mode="widthFix"></image>   
+       </view>
+        <view>
+        <view>
+         <image src="/image/location.png" class="location_image" mode="widthFix"></image>
+         <text class="local_text">{{local}}</text>
+        </view>
+        <view class="temperature_text" >
+         {{temperature}}℃
+        </view>
+      </view>
+     </view>
+   </view>
   <view class="label">连接地址（域名）：</view>
   <input bindinput="setHost" value="{{ host }}" />
   <view class="is-flex">

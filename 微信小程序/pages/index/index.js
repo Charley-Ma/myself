@@ -2,6 +2,10 @@ import mqtt from "../../utils/mqtt.min.js";
 
 Page({
   data: {
+    title:'ESP32+微信小程序',
+    welcome:'欢迎，今天的天气是晴天',
+    local:'河北省沧州市',
+    temperature:'15',
     client: null,
     conenctBtnText: "连接",
     host: "n189b563.ala.cn-hangzhou.emqxsl.cn",

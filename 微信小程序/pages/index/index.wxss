@@ -1,3 +1,53 @@
+.head_box{
+  display:flex;
+  justify-content: left;
+  padding-top: 30rpx;
+}
+.head_box > image {
+  width:100rpx;
+  height:100rpx;
+}
+.head_box > view {
+  margin-left: 15rpx;
+ font-size:36rpx;
+ font-weight:600;
+ line-height:100rpx;
+}
+.weather_box{
+  height: 320rpx;
+  margin: 20rpx  0;
+  box-shadow:0 8rpx 20rpx 0 black;
+  border-radius: 32rpx;
+  margin-block-end: 50rpx;
+}
+.welcome_text{
+  padding: 30rpx;
+  font-size:26rpx;
+  text-align: center;
+  color: rgb(47, 111, 167);
+}
+.w50{
+  width: 50%;
+}
+.weather_image{
+  height: 200rpx;
+  width: 250rpx;
+  margin-top: 0rpx;
+  margin-left:50rpx;
+}
+.location_image{
+  height: 30rpx;
+  width: 30rpx;
+}
+.local_text{
+  font-size: 24rpx;
+  margin-left: 20rpx;
+}
+.temperature_text{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  font-size: 80rpx;
+}
 input,
 .received-msg-box {
   width: 100%;

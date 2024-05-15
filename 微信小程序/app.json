@@ -3,8 +3,9 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "MQTT Demo",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
